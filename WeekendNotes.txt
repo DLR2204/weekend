@@ -1,0 +1,64 @@
+
+on - 1 off-0 ------------->Ascii/unicode
+
+computer lang ----programs ---set of instructions
+
+
+s.l :- designing of websites
+
+p.l :- developing the softwares
+								
+								computer lang
+								
+						scripting lang   programming lang
+					
+			html,css,bootstrap			pop 		oop
+								
+								basic,python...		java,.net,python....
+								
+	
+	security :- abstraction,encapsulation
+	
+	performance :- inheritance,polymorphism
+								
+	
+
+
+java:- 	
+
+(1)platform independency
+
+(2)Garbage collector
+				
+				
+	sunmicrosystem---------------------------------------->oracle
+	
+	
+	greentalk(.gt)-------------->oak----------------------->java(.java)
+	
+	
+	jdk 1.0------------------------------------------------->jdk 23
+				
+				
+		jse/j2se :- standalone app's(no client-server)  --core java
+
+		jee/j2ee :-distributed app's(client-server)    -- core java + adv java
+		
+		jme/j2me :- mobile app's 					-- micro java
+		
+		
+		
+		53  - reserved words/keyword 
+		
+		varaibles :- 
+		==========
+		
+		
+		syntax:- 	datatype varname;  //declaration of varaible
+		
+					datatype varaible = value ;  //initiallization of a varaible
+		
+				
+		
+		
+		
