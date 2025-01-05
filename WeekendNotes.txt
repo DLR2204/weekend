@@ -57,8 +57,87 @@ java:-
 		syntax:- 	datatype varname;  //declaration of varaible
 		
 					datatype varaible = value ;  //initiallization of a varaible
+					
+					
+			local variables(within the method) 		global variables(outside the method)
+													
+													static 			instance
+													
+													
+syntax :- 
+======	
+	static :- 		static datatype varaible = value ; 
+	
+	instance:-		datatype varaible = value ; 
+	
+access:-
+======
+
+	static :-Static porp's can be accessed by using class reference.
+	
+	instance:-Instance prop's can be accessed by using object reference.	
+					
+		Object creation syntax:- 
+					
+					className objname = new className();
 		
+	
+memory space:-
+=============
+
+	static :-Static prop's will gets the memory space only once when the class loads into the jvm.
+	
+	instance:-Instance prop's will gets the memory space for every object creation.	
+	
+	
+in the memory :-
+
+	static :- Method Area
+	
+	instance:- Heap Area
+
+	
+usage :- 
+
+	static :- Common data  
+	
+	instance:-	 unique data		
+	
+	
+				operators :-  ULTRA AB
+				==========
 				
+				
+				a + b --->operands
+
+Uniary 
 		
+Logical
+
+Ternary
+
+Relational
+
+Assignment
+
+Arithematic
+
+Bitwise		
+				
+				
+		Flow COntrol Statements :- 		
+				
+	ide shortcuts :- 
+	
+---->	ctrl+space 
+	
+	main
+	
+	syso
 		
+	suggestion
+
+---->ctrl+shift+o --->imports
+
+---->ctrl +shift +f ---->format	
 		
