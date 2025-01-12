@@ -140,4 +140,167 @@ Bitwise
 ---->ctrl+shift+o --->imports
 
 ---->ctrl +shift +f ---->format	
+
+
+	class :- var + method (members, mem function)
+	
+	object :-
+		
+		
+		methods :- set of statements where altogether will performs a task
+		
+		syntax:- accessmodifer returntype methodName(prams...){
+		
+		
+				//body
+				}
+				
+				
+		(1)static methods:-class reference 
+		
+		
+		syntax:- accessmodifer static returntype methodName(prams...){
+		
+		
+				//body
+				}
+		
+		
+		(2)dynamic method:- obj reference
+		
+		syntax:- accessmodifer returntype methodName(prams...){
+		
+		
+				//body
+				}
+				
+		Inheritance :- Accquiring parent class props to the child class	
+		-----------
+
+							* CODE REUSEABILITY
+		
+				extends 					implements
+			
+			class ----->class				interface ---->clss
+			interface---->interfce
+
+			
+				
+		class A{				class B{
+		
+		add(a,b){				add(x,y)
+		}						}
+		
+		
+		class C extends A,B{
+		
+		
+		add(2,6);
+		
+		}
+		
+		
+		*M.I is not supported in java @class level
+		
+		*M.I is supported in java @interface level
+		
+		
+		methods :- based on the method body -2 types
+		
+		(1)concrete method :- methods with method body
+		
+		
+		syntax:- accessmodifer returntype methodName(prams...){
+		
+		
+				//body
+				}
+		
+		(2)abstract methods :- methods without method body
+		
+		syntax:- accessmodifer returntype methodName(prams...);
+		
+		
+		class :- it is the only collection of concretes methods.
+		
+		interface :- it is the only collection of abstract methods
+		
+		abstract clss:- it is the combination of both concrete and abstract methods.
+		
+		
+		Abstraction :- hiding the logic 
+		===========				
+					* security
+					
+		class            0%
+		
+		interface		100%
+		 
+		abstract clss   0%-100%
+		
+		
+		Polymorphism :-  *Code Reuseability
+		============
+		
+		(1)MethodOverloading:- the method name is same but with diff parameters....
+								(a)type of parameters
+								(b)order of parameters
+								(c)number of parameters
+								
+		(2)MethodOverriding:- the method name is same but with diff method body.
+		
+		
+		clss Parent {
+		
+		10000Cr();
+		
+		marriage(){
+		kajol;
+		}
+		10000 method();
+		}
+		
+		class child extends Parent{
+		
+		@Override
+		marriage(){
+		deepika;
+		}
+		
+		
+		}
+		
+		
+		Encapsulation :- It will wraps up the data into a single unit/class
+		-------------
+								*Security
+		
+		Constructor :-  To initialize the obj
+		
+				(1)Default Constructor
+				
+				Syntax :- 
+				
+						accessmodifier  ClassName(){
+						
+						//body
+						}
+				
+				(2)Parametrized Constructor
+				
+				Syntax :- 
+				
+						accessmodifier  ClassName(params...){
+						
+						//body
+						}
+						
+						
+		For every java file the default package is "java.lang"
+		
+		For every java class the parent class is "java.lang.Object" 
+						
+						
+		
+						
 		
