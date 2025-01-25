@@ -332,4 +332,86 @@ Bitwise
 		(3)lots of utility methods.
 		
 		
+		Date API :- 
+		========
 		
+		java.util.Date;
+		
+		java.time.LocalDate;---------------->static methods(can't be overrided)
+		
+		
+		fileHandling :- java.io;
+		=============
+		
+		
+		create a file     :- File
+		
+		
+		write into the file:- FileWriter
+							  BufferedWriter
+							  PrintWriter
+							  
+		read from the file:- FileReader
+							 BufferedReader
+							 
+							 
+		
+		String:- 
+		=======
+		String varname = value;
+		
+		
+		String 							StringBuffer				StringBuilder
+		
+		immutable						mutable						mutable
+		
+										Sync					Not-Sync(multithreading)
+		
+		
+		MultiThreading:- Running multiple threads at a time where each thread is independent on each other
+		
+		
+		Thread,Runnable
+		
+		
+		Junit :- Java unit testing
+		
+											Database(oracle)
+											========
+
+Data :- Raw info of any real world entity.
+
+Database :- Organised collection of data
+
+Database :- oracle db ,dbms :- Rdbms ; lang -sql
+
+Table = rows(records) + columns(fields)
+
+Query :- 5 types 
+
+DDL(Data Definition Language) :- create,alter,rename,drop,truncate [atuo-commited]
+
+DML(Data Manipulation Language) :-insert,update,delete [not-committed]
+
+DRL(Data Retrival Language) :- select
+
+DCL(Data Control Language) :- grant,revoke
+
+TCL(Transaction COntrol Language) :- commit,rollback
+
+
+
+To create an user:- 
+
+cmd> conn /as sysdba;
+
+cmd> create user username identified by password;
+
+cmd>  grant connect, resource to username;
+
+cmd> conn username/password;
+
+
+drop :- will deletes entire table with records
+
+truncate :- will earises all the records.
