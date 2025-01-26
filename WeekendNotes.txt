@@ -415,3 +415,55 @@ cmd> conn username/password;
 drop :- will deletes entire table with records
 
 truncate :- will earises all the records.
+
+
+							jdbc(java database connectivity)
+							================================
+							
+				java<--------------->drivers(thin)<--------------->database(oracle)
+				
+
+(1)Loading the driver classes
+
+(2)Creating the connection
+
+(3)Creating the statements
+
+(4)Execute the statement
+
+(5)Close the connection
+
+
+
+(1)Queries 
+
+(2)Table creation
+
+(3)boiler plate code
+
+(4)Exception handling
+
+(5)same file for logic,db prop's.
+
+
+jpa [java persistence api]  ----->Spefications
+===
+(1)No Queries 
+
+(2)No Table creation
+
+(3)No boiler plate code
+
+(4)No Exception handling
+
+(5)diif file for logic,db prop's.
+
+ORM TOOLS :- hibernate,ecllipse link,top link ,ibatis...........
+-----------
+
+(1)Query equivalent methods
+
+(2)Class----->Table
+
+(3)logic-->.java,db prop's --->xml file
+
