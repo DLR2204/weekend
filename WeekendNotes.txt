@@ -456,14 +456,146 @@ jpa [java persistence api]  ----->Spefications
 
 (4)No Exception handling
 
-(5)diif file for logic,db prop's.
+(5)diff file for logic,db prop's.
 
 ORM TOOLS :- hibernate,ecllipse link,top link ,ibatis...........
 -----------
+									Persistence
+											|
+											
+									EntityManagerFactory
+											|
+											
+(1)Query equivalent methods --------> EntityManager obj
 
-(1)Query equivalent methods
+insert ---->persist();
 
-(2)Class----->Table
+update ---->merge();
+
+delete ---->remove();
+
+select ---->find();
+
+
+(2)Class----->Table,variables---->columns
+
+object --------------------------->rows
 
 (3)logic-->.java,db prop's --->xml file
 
+jpa :- 
+
+<persistence>
+
+<persistence-unit id="apple">
+
+	<properties>
+	
+	<property driverclass=""></property>
+	<property db add=""></property>
+	<property user></property>
+	<property pwd=></property>
+	
+	
+	<property hibernate></property>
+	<property table crete></property>
+	<property showsql></property>
+
+	
+	</properties>
+
+</persistence-unit>
+</persistence>
+									
+									maven:- (build tool)
+									=====
+downloading:- 	jar file 
+									
+	
+									Spring:- 
+									=======
+									
+	Def:- Spring is a non-invasive Framework which is used to develop light-weighted and loosley-
+	===		
+			coupled web applications.
+
+			
+			invasive :- It will force the programmer to use the inbuild api
+			
+			
+			non-invasive:- It will not force the programmer to use the inbuild api
+			
+			
+			light-weighted:- 
+									
+			heavy-weighted:- 
+
+
+
+	
+
+
+class B{
+
+5 methods
+}		
+
+class C extends B{
+
+1 method  + 5 methods 
+
+}
+				tightly coupled :- if the dependencies b/n the classes are  very high 
+				
+				loosley coupled :- if the dependencies b/n the classes are very low .
+				
+				
+				ejb framework ----->tightly coupled 
+				
+				spring 1.x -------->Rod Johnson
+				
+				
+	Spring Core,Spring Boot,Spring Security,Spring Rest,Spring Cloud...............
+				
+				
+				
+Spring Core:- To avoid the dependencies b/n the classes and creates light-weighted application
+===========				
+	
+		Containers :- They will creates the objects 
+		-----------
+						(1)BeanFactory
+						
+						(2)ApplicationContext
+						
+		DependencyInjection:-  Passing the data into the object
+		-------------------
+						(1)SetterInjection
+						(2)Constructor Injection
+						(3)Autowire
+						
+		Configurations:- 
+		--------------
+						(1)Xml Configuration
+						(2)AnnotationConfiguration
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
