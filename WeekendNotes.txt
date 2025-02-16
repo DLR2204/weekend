@@ -580,7 +580,7 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 						(2)AnnotationConfiguration
 	
 	
-	SpringBoot:- Advantages
+	SpringBoot:- Advantages 
 	===========
 	
 	
@@ -594,19 +594,67 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 	
 	
 	
+		controller :- to interact with the ui/client through http urls
+		
+		dao/repository:- to interact with the db to performe crud operations
+		
+		service :- it is the mediator b/n controller nd dao.
 	
 	
 	
+								SpringRest 
+								==========
+	
+	webservices :- It is used to make interaction possible b/n two interoperable app's.
+	-----------
+	
+	SOAP :- the common lang is xml only
+	
+	REST :- the common lang are xml,json,php,txt,html.......
 	
 	
+									Frontend:- 
+									=========
+									
+	
+	website:- collection of webpages
+	
+	webpages :- 3 types
+	
+				(1)static webpages:- the changes are stagnant.
+				
+				(2)dynamic webpages:-the changes will happens regulary.
+				
+				(3)server webpages:- the data from the static nd dynamic webpages will gets stored here.
 	
 	
+	HTML :- Hyper Text Markup Language
+	
+	tags:- 2 types 
+	
+	<predefined word>
+	
+	(1)container/pair tag:- <tag></tag>
+	
+	(2)single/empty:-<tag> or </tag> or <tag/>
+	
+		
+	<tag class="value"> statements </tag>   ---------------->element in html
+			attribute
 	
 	
+	linking tag:- <a href=""></a>
+	
+	(1)Text linking
+	
+	(2)Image linking
 	
 	
+	Lists :- <li></li>
 	
+	(1)unordered list <ul></ul>-------->Bullets
 	
+	(2)ordered list <ol></ol>----------->Numberings
 	
 	
 	
