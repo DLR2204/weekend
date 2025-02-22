@@ -658,4 +658,20 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 	
 	
 	
+	table <table>= rows <tr> + columns <td>
 	
+	
+	Elements:- 
+	
+	(1)Block elements     
+	
+	(2)Inline elements   
+								
+										Styling:-css
+										========
+										
+		(1)Inline Styling :- style attribute in the opening tag
+		
+		(2)Internal Styling :- <style> tag in the <head> tag
+		
+		(3)External Styling :- attaching .css file .html file
