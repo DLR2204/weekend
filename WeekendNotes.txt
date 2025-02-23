@@ -675,3 +675,46 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 		(2)Internal Styling :- <style> tag in the <head> tag
 		
 		(3)External Styling :- attaching .css file .html file
+		
+		
+		selectors:- 
+		----------
+		
+		(1)tag name 			:- h3
+		
+		(2)id name				:- #idname
+		
+		(3)class name			:- .classname
+		
+		(4)universal 			:  *
+		
+		
+										javascript
+										----------
+								
+				(1)Dynamic webpages,nd interactive webpages
+				
+				(2)To change the html content
+				
+				(3)To change the html attributes
+				
+				(4)To change css styling
+				
+				(5)To hide the data in the webpage
+				
+				
+				output functions in js :- 
+				--------------------------
+				
+				(1)innerHtml() :- given data will be displayed on the webpage(using getElementById)
+				
+				(2)document.write():- given data will be displayed on the webpage
+				
+				(3)window.alert():- given data will be displayed on the alert box
+				
+				(4)console.log :- given data will be displayed in the console window.
+				
+				
+				(1)Internal scripting:- <script> tag in the head/body tag
+				
+				(2)External scripting :- attaching .js file to the html doc.
