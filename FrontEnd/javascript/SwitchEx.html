@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <script>
+        function check(){
+
+         document.getElementById("perc").value= ( document.getElementById("om").value/document.getElementById("mm").value)*100
+
+        var Percentage = document.getElementById("perc").value;  
+
+        var grade;
+
+        switch(Math.floor(Percentage/10)){
+
+            case 9: grade="Distinction";
+                    break;
+            
+            case 8:grade="Excellent";
+                    break;
+
+            case 7:grade="VeryGood";
+                    break;
+
+            case 6:grade="Good";
+                    break;
+
+            case 5:grade="Improve Well";
+                    break;
+
+            default:grade="Fail";
+                    break;
+
+        }
+
+        document.getElementById("grade").value=grade;
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1 align="center"><u>Percentage Calculator</u></h1>
+
+    <h3>ObtainedMarks:- <input type="text" id="om"></h3>
+
+    <h3>MaxMarks:- <input type="text" id="mm"></h3>
+
+   <center><button type="button" onclick="check()">Check</button>
+
+    <h2>Your Percentage is :- <input type="text" id="perc">%</h2>
+
+    <h2>Your Grade is:- <input type="text" id="grade"></h2>
+</center>
+</body>
+</html>
