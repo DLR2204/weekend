@@ -728,3 +728,59 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 				
 				FlowControl Statements :- 
 				----------------------
+				
+				
+				
+				Functions :-
+				
+				Syntax :- 
+				
+				
+					function functionName(Params...){
+					
+						//body
+					}
+					
+			Dom :- Document object Model
+					
+					
+										Bootstrap:-
+										=========
+										
+			(1)CDN (Content Delivery Network)
+			
+			(2)Dowloading the bootstrap files
+			
+			
+			GridSystem :- class="Container"
+			
+			NavBar :- class="nav"/"navbar" /<nav>
+			
+			Forms :- Class="form-control"
+			
+					Checks/Radio class="form-check"
+								class="form-check-input"
+								
+								
+				React :-
+				=======
+			To create react app:- 
+			
+			(1)	npx create-react-app appname
+			
+			or
+			
+			
+			(2)npm install create-react-app -g
+				
+				create-react-app appname
+				
+				
+		Component:- a small portion of our webpage.2 types:-
+		----------
+		
+		(1)Stateless Functional Component  -js function
+		
+		(2)Stateful Class Component		- js class
+		
+								
