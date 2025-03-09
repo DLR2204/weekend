@@ -784,3 +784,13 @@ Spring Core:- To avoid the dependencies b/n the classes and creates loosley-coup
 		(2)Stateful Class Component		- js class
 		
 								
+		props:- Properties for the component	--functional Parameters,Class Component
+		-----
+		
+			--->Method parameters w.r.t the functional component
+			
+			--->Tag attributes and values w.r.t the App Component
+	
+		state :- Varibales in react				------Class Component
+		
+										
