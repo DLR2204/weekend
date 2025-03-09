@@ -1,0 +1,10 @@
+.movie-section{
+
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 60vh;
+    border-radius:20px;
+    box-shadow:  2px 2px 2px 2px darkgrey;
+}
